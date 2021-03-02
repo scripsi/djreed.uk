@@ -1,0 +1,22 @@
+site_name: djReed
+theme:
+  name: material
+  palette:
+    scheme: default
+    primary: grey
+    accent: blue
+  icon:
+    logo: material/feather
+  features:
+    - navigation.tabs
+    - toc.integrate
+    - header.autohide
+
+markdown_extensions:
+  - admonition
+  - pymdownx.superfences
+
+plugins:
+  - search
+
+copyright: Copyright &copy; 2021 Douglas Reed
