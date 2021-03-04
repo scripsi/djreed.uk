@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+
+{% block styles %}
+  {{ super() }}
+  <link rel="stylesheet" href="{{ base_url }}/assets/stylesheets/splide.min.css" />
+{% endblock styles %}
+
+{% block libs %}
+  {{ super() }}
+  <script src="{{ base_url }}/assets/javascripts/splide.js"></script>
+{% endblock libs %}
+
+{% block scripts %}
+  {{ super() }}
+
+  <script>
+    document.addEventListener( 'DOMContentLoaded', function () {
+      new Splide( '#image-slider', {
+        keyboard: false
+      } ).mount();
+    } );
+  </script>
+{% endblock scripts %}

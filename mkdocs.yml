@@ -1,22 +1,30 @@
 site_name: djReed
+site_author: Douglas Reed
+site_description: Portfolio of Douglas Reed, artist printmaker - etching, linocut and original illustration
+copyright: Copyright &copy; 2021 Douglas Reed
+
+
 theme:
   name: material
+  custom_dir: custom-theme
   palette:
     scheme: default
     primary: grey
     accent: blue
   icon:
     logo: material/feather
+  font:
+    text: Merriweather
   features:
     - navigation.tabs
     - toc.integrate
-    - header.autohide
 
 markdown_extensions:
   - admonition
+  - attr_list
   - pymdownx.superfences
 
 plugins:
   - search
 
-copyright: Copyright &copy; 2021 Douglas Reed
+

@@ -48,3 +48,8 @@ The settings are stored in the GitHub repository's settings -> secrets menu. Use
 * PORT - the port to use for sftp - usually 22
 
 ![GitHub secrets page](github-screenshot.png)
+
+## Images
+
+Image galleries use [Splide](https://splidejs.com/getting-started/)
+
