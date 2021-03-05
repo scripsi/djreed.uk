@@ -52,4 +52,3 @@ The settings are stored in the GitHub repository's settings -> secrets menu. Use
 ## Images
 
 Image galleries use [Splide](https://splidejs.com/getting-started/)
-
