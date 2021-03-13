@@ -7,7 +7,7 @@
 
 {% block libs %}
   {{ super() }}
-  <script src="{{ base_url }}/assets/javascripts/splide.js"></script>
+  <script src="{{ base_url }}/assets/javascripts/splide.min.js"></script>
 {% endblock libs %}
 
 {% block scripts %}
@@ -19,5 +19,9 @@
         keyboard: false
       } ).mount();
     } );
+  </script>
+
+  <script>
+    
   </script>
 {% endblock scripts %}

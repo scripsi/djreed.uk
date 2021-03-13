@@ -1,6 +1,6 @@
-# djreed.uk
+# douglasreed.uk
 
-This is the [djreed.uk](http://djreed.uk/djreed) website development repository.
+This is the [douglasreed.uk](https://douglasreed.uk/) website development repository.
 
 The website content is written in Markdown and compiled to a static website with [MkDocs](https://www.mkdocs.org/) and the [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/) theme. A GitHub Action compiles and deploys the website to hosting automatically whenever I use `git push` from my local copy.
 
